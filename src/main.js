@@ -6,7 +6,7 @@ import Home from './p/Home.vue'
 import Portfolio from './p/Portfolio.vue'
 
 const router = createRouter({
-    history: createWebHistory(),
+    history: createWebHistory('./p/'),
     routes: [
         { path: '/', name: 'Home', component: Home},
         { path: '/portfolio', name: 'Portfolio', component: Portfolio}
